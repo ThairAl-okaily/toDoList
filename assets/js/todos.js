@@ -27,3 +27,8 @@ $("#addToDo").keypress(function(e){
 });
 });
 
+$(document).ready(function(){
+    $(".fa-plus").click(function(){
+        $("#addToDo").fadeToggle();
+    });
+});
