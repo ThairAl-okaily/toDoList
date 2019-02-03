@@ -1,3 +1,12 @@
+
+
 #container {
-    background: gray;
+    border: 2px solid gray;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.don {
+    color: gray;
+    text-decoration: line-through; 
 }
