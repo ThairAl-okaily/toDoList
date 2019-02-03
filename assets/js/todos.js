@@ -21,7 +21,7 @@ $("#addToDo").keypress(function(e){
     if(e.which === 13){
         let todotxt = $(this).val();
         //add li and hook the .text();
-        $("ul").append("<li><span>X </span>" + todotxt + "</li>");
+        $("ul").append("<li><span><i class='far fa-trash-alt'></i></span>" + todotxt + "</li>");
         $(this).val("");
     }
 });
